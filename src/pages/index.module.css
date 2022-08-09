@@ -2,6 +2,9 @@
 
 body {
   margin: 0;
+  position: relative;
+  padding-bottom: 2em;
+  min-height: 100vh;
 }
 
 .container {
@@ -48,7 +51,6 @@ body {
 
 .button {
   background-color: #43B3E0;
-  margin: 10px;
   padding: 10px 30px;
   text-align: center;
   background-size: 200% auto;
