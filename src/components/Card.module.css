@@ -1,7 +1,15 @@
+
+
 .container{
+    background-image:'../images/images.jpg' ;
     border: solid 2px blue;
     width: 100%;
     align-items: center;
     display: flex;
     flex-direction: column;
+    background-image: url('../images/images.jpg');
+}
+
+.Title{
+    color: white
 }
