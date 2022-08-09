@@ -1,0 +1,48 @@
+.button {
+    background-color: #43B3E0;
+    margin: 10px;
+    padding: 10px 30px;
+    text-align: center;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: inset 0px 0px 0px 1px rgb(0 0 0 / 50%),
+        inset 0px 2px 1px 0px rgb(255 255 255 / 75%);
+    border-radius: 8px;
+    width: 30%;
+    height: 5px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: -1px -1px 0.5px rgb(0 0 0 / 50%);
+    -webkit-appearance: none;
+}
+
+.button:hover {
+    background-color: #67bfe2;
+}
+
+.Description {
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+    color: #3E3E3E;
+}
+
+.ContentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8%;
+}
+
+
+@media (min-width: 768px) {
+
+    .Description {
+        font-size: 20px;
+    }
+
+    .ContentContainer {
+        padding: 5%;
+    }
+}
