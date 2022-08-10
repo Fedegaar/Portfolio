@@ -13,8 +13,8 @@ const IndexPage = () => {
         <div className={container}>          
             <img className={img} alt="Profile pic" src={profile} />  
             <div   className={Info}>        
-                <h1 className={h1Name}>Hi. I'm <span className={name}>,  Federico Garcia</span></h1>
-                <p className={Description}>I'm a passionate <span className={nameF}>Full Stack Web Developer</span> and this is my portfolio made whit Gatsby!</p>
+                <h1 className={h1Name}>Hola! Soy <span className={name}>Federico Garcia</span></h1>
+                <p className={Description}>Soy un apasionado <span className={nameF}>Full Stack Web Developer</span> y este es mi portfolio hecho con Gatsby!</p>
             </div>
         </div>
         <hr/>
