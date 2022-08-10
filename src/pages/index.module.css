@@ -64,7 +64,6 @@ body {
   font-weight: 700;
   text-decoration: none;
   text-shadow: -1px -1px 0.5px rgb(0 0 0 / 50%);
-  -webkit-appearance: none;
 }
 
 .button:hover {
