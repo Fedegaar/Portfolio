@@ -2,6 +2,7 @@ import * as React from 'react'
 import countries from '../images/the-country.png'
 import { container, Title, cardImg, cardDescription } from './Card.module.css'
 
+
 const Card = () => {
   return (
     <div className={container}>

@@ -9,7 +9,7 @@
     font-family: 'Jost', sans-serif;
     font-weight: 200;
     --card-gradient: rgba(0, 0, 0, 0.8);
-     /* --card-blend-mode: multiply;   */
+    --card-blend-mode: multiply;   
     background-color: #fff;
     border-radius: 6px;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
@@ -39,12 +39,19 @@
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transition: 1.5s;
     transform: translateY(-3%);
+    cursor: default;
 }
 
 
 .Title{
     color: black;
 }
+
+.Title:hover{
+    color:#e7746f;
+    cursor:pointer;
+}
+
 
 @media (min-width: 768px){
     .container{
