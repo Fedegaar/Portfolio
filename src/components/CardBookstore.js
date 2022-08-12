@@ -7,7 +7,8 @@ const CardBookstore = () => {
     <div className={container}>
       <img src={bookstore} className={cardImg}/>
       <h2 className={Title}>BookStore</h2>  
-      <p className={cardDescription}>Lorem ipsum dolor sit amet, vide debet partiendo duo cu. Eu suscipit urbanitas mea, agam dolore alterum ut pro, eros aperiri accusam quo ut. Ad sed malis consetetur. 
+      <p className={cardDescription}>BookStore es la SPA con la cual nos consagramos con mi grupo de Henry. En la misma pusimos en practica lo aprendido y aprendimos sobre la marcha varias tecnologias, frameworks y librerias de las cuales no teniamos conocimiento alguno.
+      Una experiencia muy rica en la cual junto a mi equipo fortalecimos un vinculo vigente hasta el dia de hoy.. 
 </p>    
     </div>
   )
