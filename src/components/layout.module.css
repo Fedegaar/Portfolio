@@ -4,6 +4,7 @@
     margin-bottom: 5%;
     width: 100%;
     position: sticky;
+    z-index: 1;
     top: 0;
     border-bottom: 2px solid #e7746f;
 }
