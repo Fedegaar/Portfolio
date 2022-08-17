@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import Card from '../components/Card'
 import CardBookstore from '../components/CardBookstore'
 import { container, cardContainer, h1Title } from './projects.module.css'
-import IncomingProject from '../components/incomingProject'
+import IncomingProject from '../components/IncomingProject'
 
 const Projects = () => {
   return (
