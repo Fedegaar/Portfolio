@@ -17,6 +17,13 @@
     -webkit-appearance: none;
 }
 
+.h2Title{
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+}
+
+
 .button:hover {
     background-color: #67bfe2;
 }
