@@ -20,8 +20,8 @@
 @media (min-width: 768px){
     .cardContainer{
         display: flex;
-        justify-content: center;
         justify-content: space-evenly;
         flex-direction: row;
+        align-items: flex-start;
     }
 }

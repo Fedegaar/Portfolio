@@ -45,6 +45,7 @@
 
 .Title{
     color: black;
+    text-align: center;
 }
 
 .Title:hover{
@@ -56,5 +57,8 @@
 @media (min-width: 768px){
     .container{
         
+    }
+    .cardImg{
+        margin:0;
     }
 }
