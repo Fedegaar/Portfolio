@@ -24,6 +24,18 @@ body {
   height: 150px;
 }
 
+span{
+  font-weight: 700;
+}
+
+img{
+  border-radius: 50%;
+  width: max-content;
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+
 .name {
   font-size: 20px;
   font-weight: 700;
@@ -84,7 +96,7 @@ body {
 
 
 @media (min-width: 768px) {
-  .img {
+  img{
     width: 250px;
     height: 250px;
     margin: 3%;
