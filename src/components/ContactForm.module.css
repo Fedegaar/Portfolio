@@ -1,0 +1,60 @@
+.container{
+    text-align: center;
+    border: 1px solid  #232323;
+    box-shadow: 2px -1px 38px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px -1px 38px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px -1px 38px -2px rgba(0,0,0,0.75);
+    -webkit-appearance: none;
+    border-radius: 15px;
+    margin: 10%;
+}
+
+.h2Title{
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+.formContainer{
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.input{
+    margin: 2%;
+    font-family: 'Jost', sans-serif;
+    width: 93%;
+}
+
+.textArea{
+    margin: 2%;
+    font-family: 'Jost', sans-serif;
+    resize: none;
+    width: 93%;
+}
+
+.inputSubmit {
+    background-color: #43B3E0;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: -1px -1px 0.5px rgb(0 0 0 / 50%);
+    cursor: pointer;
+}
+
+.inputSubmit:hover {
+    background-color: #67bfe2;
+}
+
+.errorsStyle{
+    color: red;
+    font-family: 'Jost', sans-serif;
+    font-size: small;
+    font-weight: 600;
+}
