@@ -31,7 +31,20 @@
     align-items: center;
 }
 
+
 .icon:hover{
+    color: #e7746f;
+}
+
+.iconEmail{
+    size: 2em;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconEmail:hover{
     color: #e7746f;
 }
 
@@ -40,5 +53,9 @@
     .h2Title{
         margin: 3%;
         margin-bottom: 3%;
+    }
+
+    .iconEmail{
+        display: none;
     }
 }

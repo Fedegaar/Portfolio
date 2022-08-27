@@ -34,14 +34,15 @@
 .cardDescription{
     margin: 5px;
     font-size: 400;
-    color: #3E3E3E
+    color: #3E3E3E;
+    text-decoration: none;
 }
 
 .container:hover{
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transition: 1.5s;
     transform: translateY(-3%);
-    cursor: default;
+    cursor: pointer;
 }
 
 
