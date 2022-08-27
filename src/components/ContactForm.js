@@ -56,7 +56,7 @@ const ContactForm = () => {
     return (
         <div className={container}>
             <h3 className={h2Title}>Formulario de Contacto</h3>
-            <form className={formContainer} onSubmit={handleSubmit}>
+            <form action="https://formsubmit.co/garciaf.dev@gmail.com" method="POST" className={formContainer} onSubmit={handleSubmit}>
                 <input
                     type="text"
                     name="name"
