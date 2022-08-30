@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import { BsLinkedin, BsGithub } from 'react-icons/bs'
 import { HiDocumentText } from 'react-icons/hi'
 import { SiGmail } from 'react-icons/si'
-import { container, h2Title, iconsContainer, icon, Parrafos, iconEmail } from './contact.module.css'
+import { container, h2Title, iconsContainer, icon, Parrafos, Parrafo, iconEmail } from './contact.module.css'
 import ContactForm from '../components/ContactForm'
 
 const Contact = () => {
@@ -14,8 +14,7 @@ const Contact = () => {
         <div className={container}>
             <h2 className={h2Title}>Pongamonos en contacto!</h2>
             <p className={Parrafos}>Estoy en busqueda de una oportunidad en el mundo IT, de nuevos desafios que afrontar.
-            Si te interesó lo que viste, tenes dudas o simplemente queres contactarte conmigo, te dejo varias opciones por las cuales contactarnos.
-            Sentite libre de usar la que te quede mas comoda...</p>
+            Si te interesó lo que viste, tenes dudas o simplemente queres contactarte conmigo, podes hacerlo mediante...</p>
             
             <div className={iconsContainer}>              
               <Link target='none' className={icon} to='https://www.linkedin.com/in/gaarfede/'><BsLinkedin size={"30px"}/><span>LinkedIn</span></Link>

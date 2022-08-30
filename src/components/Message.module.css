@@ -1,0 +1,25 @@
+.container{
+    background-color: #198754;
+    border-radius: 10px;
+    padding-left: 3em;
+    padding-right: 3em;
+    border: 0.1px solid black; 
+    margin-bottom: 10%;
+    box-shadow: 2px 2px 9px 7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 9px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 9px 7px rgba(0,0,0,0.75);
+}
+
+.Parrafos{
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+
+
+@media (min-width: 768px){
+    .container{
+        margin-bottom: 2%;
+        padding-left: 15em;
+        padding-right: 15em;
+    }
+}

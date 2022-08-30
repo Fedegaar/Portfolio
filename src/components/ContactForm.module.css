@@ -1,5 +1,7 @@
 .container{
-    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     border: 1px solid  #232323;
     box-shadow: 2px -1px 38px -2px rgba(0,0,0,0.75);
     -webkit-box-shadow: 2px -1px 38px -2px rgba(0,0,0,0.75);
@@ -57,4 +59,20 @@
     font-family: 'Jost', sans-serif;
     font-size: small;
     font-weight: 600;
+}
+
+.hola{
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 650px;
+        height: 470px;
+        margin: 0%;
+    }
 }
