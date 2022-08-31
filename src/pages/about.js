@@ -31,7 +31,7 @@ const About = () => {
             </p>
           </div>
           <p className={Description}>Ahora que ya sabes un poco sobre mi, te invito a ver mis proyectos...</p>
-          <Link to='/projects'><a className={button} href="/projects">Go to projects</a></Link>
+          <Link to='/projects'><a className={button} href="/projects">Proyectos</a></Link>
         </div>
       </Layout>
     </main>
