@@ -61,10 +61,6 @@
     font-weight: 600;
 }
 
-.hola{
-    display: flex;
-    justify-content: center;
-}
 
 @media (min-width: 768px){
     .container{
@@ -74,5 +70,6 @@
         width: 650px;
         height: 470px;
         margin: 0%;
+
     }
 }

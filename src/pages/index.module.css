@@ -24,6 +24,18 @@ body {
   height: 150px;
 }
 
+.IMGSTACK{
+  border-radius: 0px;
+  width: 30px;
+  height: 30px;
+  margin: 4px;
+}
+
+.imgContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
 span{
   font-weight: 700;
 }
@@ -58,6 +70,7 @@ img{
   font-family: 'Jost', sans-serif;
   font-size: 15px;
   color: #3E3E3E;
+  text-align: center;
 }
 
 
@@ -75,7 +88,7 @@ img{
   font-family: 'Jost', sans-serif;
   font-weight: 700;
   text-decoration: none;
-  text-shadow: -1px -1px 0.5px rgb(0 0 0 / 50%);
+  text-shadow: -1px -1px 0.5px rgb(0 0 0 / 50%);  
 }
 
 .button:hover {
@@ -126,6 +139,12 @@ img{
   }
 
   .ContentContainer {
-    padding: 5%;
+    padding: 2%;
+  }
+
+  .IMGSTACK{
+    width: 70px;
+    height: 70px;
+    margin: 25px;
   }
 }
