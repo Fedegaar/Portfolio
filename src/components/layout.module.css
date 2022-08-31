@@ -77,4 +77,15 @@
         font-size: 18px;
         text-align: center;
     }
+
+    .Footer{
+        height: 3%;
+    }
+
+    .FooterText{
+        font-size: 12px;
+        font-weight: 600;
+        margin: 0.5%;
+        padding: 0%;
+    }
 }
