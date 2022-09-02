@@ -17,6 +17,7 @@ const Card = () => {
       <p className={cardDescription}>En esta oportunidad desarrolle mi primer app completa para el bootcamp Henry y su primer etapa de labs, la cual conclui con exito.
         Se trata de una SPA en la cual podemos realizar busquedas por nombre del pais, ordenar alfabeticamente, etc. La misma cuenta con un formulario controlado en el cual podemos crear actividades turisticas para los paises en los cuales se practique dicha actividad. 
       </p>
+      <br></br>
       <hr></hr>
       <div className={iconsContainer}>
           <IoLogoJavascript size={"25px"} color={"black"}/>

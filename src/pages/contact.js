@@ -14,7 +14,7 @@ const Contact = () => {
         <div className={container}>
             <h2 className={h2Title}>Pongamonos en contacto!</h2>
             <p className={Parrafos}>Estoy en busqueda de una oportunidad en el mundo IT, de nuevos desafios que afrontar.
-            Si te interesó lo que viste, tenes dudas o simplemente queres contactarte conmigo, podes hacerlo mediante...</p>
+            Si te interesó lo que viste, tenes dudas o simplemente queres contactarte conmigo, podes hacerlo por éstas vias. Desde ya muchas gracias!</p>
             
             <div className={iconsContainer}>              
               <Link target='none' className={icon} to='https://www.linkedin.com/in/gaarfede/'><BsLinkedin size={"30px"}/><span>LinkedIn</span></Link>

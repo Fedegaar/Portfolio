@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 import Card from '../components/Card'
 import CardBookstore from '../components/CardBookstore'
 import { container, cardContainer, h1Title, button, Description, buttonContact } from './projects.module.css'
-import IncomingProject from '../components/IncomingProject'
+import MyPortfolio from '../components/MyPortfolio'
 
 const Projects = () => {
   return (
@@ -16,7 +16,7 @@ const Projects = () => {
             <div className={cardContainer}>
                 <Card/>
                 <CardBookstore/>
-                <IncomingProject/>
+                <MyPortfolio/>
             </div>
             <div className={buttonContact}>
               <p className={Description}>Si despues de ver mis proyectos, te interesa contactarme hace click en el siguiente boton!</p>
