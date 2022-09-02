@@ -14,6 +14,8 @@ body {
   align-items: center;
   margin: 1%;
   padding: 1%;
+  height: 100%;
+  overflow: hidden;
 }
 
 .img {
@@ -141,6 +143,7 @@ img{
 
   .ContentContainer {
     padding: 2%;
+    margin-top: 0%;
   }
 
   .IMGSTACK{

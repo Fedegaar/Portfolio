@@ -43,6 +43,9 @@
     padding: 8%;
 }
 
+hr{
+    color: black;
+}
 
 @media (min-width: 768px) {
 
@@ -52,5 +55,6 @@
 
     .ContentContainer {
         padding: 5%;
+        margin-top: 0%;
     }
 }
