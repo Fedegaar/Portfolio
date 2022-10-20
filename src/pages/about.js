@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
-import { ContentContainer, Description, button, h2Title, Sedes, SedesP } from './about.module.css'
+import { ContentContainer, Description, button, h2Title, finalMessage} from './about.module.css'
 
 const About = () => {
   return (
@@ -11,7 +11,7 @@ const About = () => {
           <h2 className={h2Title}>Mi mundo fue, es y será éste...</h2>
           <div class='animate__animated animate__fadeInRight'>
             <p className={Description}>
-              Mi nombre es <span>Federico Eduardo Garcia</span>, tengo 28 años y soy oriundio de la ciudad de Gualeguaychu, Entre Rios. Desde hace 2 años padre presente y orgulloso de <span>Helena Garcia Laborde</span>, quien me inspira todos los dias a superarme...
+              Mi nombre es <span>Federico Eduardo Garcia</span>, tengo 28 años y soy oriundio de la ciudad de Gualeguaychu, Entre Rios. Desde hace 2 años padre orgulloso de <span>Helena</span>, quien me inspira todos los dias a superarme...
               <br></br>              
               <br></br>
               Como <span>Full Stack Web Developer</span> con inclinacion por el <span>Front-End</span> y las mobile app's, busco profesionalizarme aun mas.
@@ -31,7 +31,7 @@ const About = () => {
 
             </p>
           </div>
-          <p className={Description}>Ahora que ya sabes un poco sobre mi, te invito a ver mis proyectos...</p>
+          <p className={finalMessage}>Ahora que ya sabes un poco sobre mi, te invito a ver mis proyectos...</p>
           <Link to='/projects'><a className={button} href="/projects">Proyectos</a></Link>
         </div>
       </Layout>

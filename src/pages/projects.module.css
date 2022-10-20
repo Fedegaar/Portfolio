@@ -22,7 +22,8 @@
 
 .Description {
     font-family: 'Jost', sans-serif;
-    font-size: 15px;
+    font-size: large;
+    font-weight: 600;
     color: #3E3E3E;
     text-align: center;
   }
@@ -62,5 +63,9 @@
     }
     .buttonContact{
         justify-content: space-evenly;
+    }
+    .Description{
+      font-size: large;
+      font-weight: 600;
     }
 }

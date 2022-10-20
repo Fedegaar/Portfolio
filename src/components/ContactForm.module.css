@@ -3,12 +3,10 @@
     display: flex;
     flex-direction: column;
     border: 1px solid  #232323;
-    box-shadow: 2px -1px 38px -2px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 2px -1px 38px -2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 2px -1px 38px -2px rgba(0,0,0,0.75);
     -webkit-appearance: none;
     border-radius: 15px;
     margin: 10%;
+    transition: all 0.5s;
 }
 
 .h2Title{
@@ -48,10 +46,15 @@
     text-decoration: none;
     text-shadow: -1px -1px 0.5px rgb(0 0 0 / 50%);
     cursor: pointer;
+    transition: all 0.5s;
 }
 
 .inputSubmit:hover {
     background-color: #67bfe2;
+    box-shadow: 2px -1px 30px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px -1px 30px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px -1px 30px -2px rgba(0,0,0,0.75);
+    transition: all 0.5s;
 }
 
 .errorsStyle{
@@ -68,8 +71,17 @@
         flex-direction: column;
         align-items: center;
         width: 650px;
-        height: 470px;
+        height: auto;
         margin: 0%;
+        margin-bottom: 10%;
 
+    }
+
+    .inputSubmit{
+        margin-top: 10%;
+    }
+
+    hr{
+        margin-bottom: 5%;
     }
 }

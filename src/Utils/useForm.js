@@ -13,17 +13,12 @@ export const useForm = (initialForm, validateForm) => {
         })
     };
 
-    const handleBlur = (e) => {
-        handleChange(e)
-        setErrors(validateForm(form))
-    }
-
 
     const handleSubmit = (e) =>{
         e.preventDefault();
         setErrors(validateForm(form))
 
-        if(Object.keys(errors).length === 0){
+        if(Object.keys(errors).length !== 0){
             alert("Procesando informacion");
             setLoading(true);
             helpHttp()
@@ -37,6 +32,7 @@ export const useForm = (initialForm, validateForm) => {
                 .then((res) => {
                     setLoading(false);
                     setResponse(true);
+                    setForm(initialForm)                    
                     setTimeout(() => setResponse(false), 3000);
                 })
         } else {
@@ -51,7 +47,6 @@ export const useForm = (initialForm, validateForm) => {
         loading,
         response,
         handleChange,
-        handleBlur,
         handleSubmit
     }
 };

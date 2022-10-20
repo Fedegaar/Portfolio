@@ -19,6 +19,7 @@
       white max(9.5rem, 27vh)
     );
     overflow: hidden;
+    transition: all 0.5s;
 }
 
 .cardImg{
@@ -40,10 +41,11 @@
 
 .container:hover{
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
-    transition: 1.5s;
+    transition: 0.5s;
     transform: translateY(-3%);
     cursor: pointer;
 }
+
 .iconsContainer{
     display: flex;
     justify-content: space-evenly; 

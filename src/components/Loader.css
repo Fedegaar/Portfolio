@@ -28,7 +28,6 @@
 
 @media (min-width: 768px){
   .lds-dual-ring{
-    margin-bottom: 10px;
   }
   .lds-dual-ring:after{
   }

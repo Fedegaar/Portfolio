@@ -10,20 +10,25 @@
 }
 
 .Footer {
+    
     background-color: #e7746f;
-    width: 100%;
-    margin-top: 1em;
-    max-height: 6%;
-    text-align: center;
-    border-top: 1px solid #282828;
-    position: absolute;
-    bottom: 0%;    
+    border-top: solid 1px #282828;
 }
 
-.FooterText {
-    font-family: 'Jost', sans-serif;
-    font-weight: 400;
-    font-size: 9px;
+.iconsContainer{
+    padding-top: 3px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon{
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    color: white;
+}
+
+.icon:hover{
+    color: #43B3E0
 }
 
 .navLink {
@@ -64,6 +69,11 @@
         background-color: #282828;
         height: 9.5%;
         margin-bottom: 0%;
+
+    }
+    
+    body{
+        overflow-x: hidden;
     }
     
 
@@ -82,10 +92,4 @@
         height: 3%;
     }
 
-    .FooterText{
-        font-size: 12px;
-        font-weight: 600;
-        margin: 0.5%;
-        padding: 0%;
-    }
 }
