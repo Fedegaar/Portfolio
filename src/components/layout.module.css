@@ -9,10 +9,12 @@
     border-bottom: 2px solid #e7746f;
 }
 
-.Footer {
-    
+.Footer {    
     background-color: #e7746f;
     border-top: solid 1px #282828;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
 }
 
 .iconsContainer{
@@ -22,6 +24,11 @@
 }
 
 .icon{
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    color: white;
+}
+.iconEmail{
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
     color: white;
@@ -89,7 +96,9 @@
     }
 
     .Footer{
-        height: 3%;
+        position: relative;
     }
-
+    .iconEmail{
+        display: none;
+    }
 }
