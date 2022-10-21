@@ -10,7 +10,7 @@ import Reactt from '../images/React.png'
 import PostgreSQL from '../images/postgre.png'
 // import Express from '../images/'
 import 'animate.css';
-import { container, img, name, h1Name, Description, nameF, Info, button, ContentContainer, imgContainer, IMGSTACK, stackArticle, stackName } from './index.module.css'
+import { container, img, name, h1Name, Description, nameF, Info, button, ContentContainer, imgContainer, IMGSTACK, stackArticle, stackName, finalMessage } from './index.module.css'
 
 
 const IndexPage = () => {
@@ -54,7 +54,7 @@ const IndexPage = () => {
               <p className={stackName}>PostgreSQL</p>
             </article>
           </div>
-          <p className={Description}>Te invito a que recorras mi portfolio...</p>
+          <p className={finalMessage}>Te invito a que recorras mi portfolio...</p>
           <Link to='/about'><a className={button} href="/about">¿Quien soy?</a></Link>
         </div>
       </Layout>
