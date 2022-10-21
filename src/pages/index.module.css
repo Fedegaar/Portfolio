@@ -92,6 +92,7 @@ img{
   font-weight: 700;
   text-decoration: none;
   text-shadow: -1px -1px 0.5px rgb(0 0 0 / 50%);  
+  top: 15%;
 }
 
 .button:hover {
@@ -112,6 +113,11 @@ img{
   display: none;
 }
 
+.finalMessage{
+  font-family: 'Jost', sans-serif;
+  font-size: large;
+  font-weight: 600;
+}
 * {
   text-decoration: none;
 }
