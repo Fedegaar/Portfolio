@@ -2,7 +2,7 @@ import React from 'react'
 import { useForm } from '../Utils/useForm';
 import 'animate.css';
 import { BiError } from 'react-icons/bi'
-import { container, h2Title, formContainer, textArea, input, inputSubmit, errorsStyle, hola } from './ContactForm.module.css'
+import { container, h2Title, formContainer, textArea, input, inputSubmit, errorsStyle } from './ContactForm.module.css'
 import Loader from './Loader'
 import Message from './Message';
 
@@ -31,18 +31,18 @@ const validateForm = (form) => {
     } else
         if (!regexEmail.test(form.email.trim())) {
             errors.name = "El campo 'Email' no es valido"
-        } else
+        }
 
-            if (!form.subject.trim()) {
-                errors.subject = "El campo 'Asunto' es requerido"
-            } else
+    if (!form.subject.trim()) {
+        errors.subject = "El campo 'Asunto' es requerido"
+    }
 
-                if (!form.comments.trim()) {
-                    errors.comments = "El campo 'Comentarios' es requerido"
-                } else
-                    if (!regexComments.test(form.comments.trim())) {
-                        errors.comments = "El campo 'Comentarios' no puede superar los 255 caracteres"
-                    }
+    if (!form.comments.trim()) {
+        errors.comments = "El campo 'Comentarios' es requerido"
+    } else
+        if (!regexComments.test(form.comments.trim())) {
+            errors.comments = "El campo 'Comentarios' no puede superar los 255 caracteres"
+        }
     return errors;
 }
 
@@ -53,7 +53,6 @@ const ContactForm = () => {
         loading,
         response,
         handleChange,
-        handleBlur,
         handleSubmit
     } = useForm(initialForm, validateForm);
 
@@ -67,9 +66,7 @@ const ContactForm = () => {
                         name="name"
                         placeholder="Escribí tu nombre"
                         onChange={handleChange}
-                        onBlur={handleBlur}
                         value={form.name}
-                        required
                         className={input}
                     />
                     {errors.name && <p className={errorsStyle}>{errors.name}   <BiError /></p>}
@@ -78,9 +75,7 @@ const ContactForm = () => {
                         name="email"
                         placeholder="Escribí tu email"
                         onChange={handleChange}
-                        onBlur={handleBlur}
                         value={form.email}
-                        required
                         className={input}
                     />
                     {errors.email && <p className={errorsStyle}>{errors.email} <BiError /></p>}
@@ -89,9 +84,7 @@ const ContactForm = () => {
                         name="subject"
                         placeholder="Asunto"
                         onChange={handleChange}
-                        onBlur={handleBlur}
                         value={form.subject}
-                        required
                         className={input}
                     />
                     {errors.subject && <p className={errorsStyle}>{errors.subject} <BiError /></p>}
@@ -102,8 +95,6 @@ const ContactForm = () => {
                         placeholder="Charlemos..."
                         value={form.comments}
                         onChange={handleChange}
-                        onBlur={handleBlur}
-                        required
                         className={textArea}
                     >
                     </textarea>
@@ -115,10 +106,10 @@ const ContactForm = () => {
                         onSubmit={handleSubmit}
                     />
                 </form>
-                {loading && <Loader/>}
-                {response && <div class='animate__animated animate__fadeIn'> 
-                     <Message/>
-                 </div>}
+                {loading && <Loader />}
+                {response && <div class='animate__animated animate__fadeIn'>
+                    <Message />
+                </div>}
             </div>
         </div>
     )

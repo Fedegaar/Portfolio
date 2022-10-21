@@ -10,7 +10,7 @@ import Reactt from '../images/React.png'
 import PostgreSQL from '../images/postgre.png'
 // import Express from '../images/'
 import 'animate.css';
-import { container, img, name, h1Name, Description, nameF, Info, button, ContentContainer, imgContainer, IMGSTACK } from './index.module.css'
+import { container, img, name, h1Name, Description, nameF, Info, button, ContentContainer, imgContainer, IMGSTACK, stackArticle, stackName } from './index.module.css'
 
 
 const IndexPage = () => {
@@ -29,12 +29,30 @@ const IndexPage = () => {
         <div className={ContentContainer}>
           <p className={Description}>He incorporado el stack PERN en el bootcamp de la Academia Henry, pero siempre me mantengo aprendiendo y fortaleciendo mis skills tecnicos.</p>
           <div className={imgContainer}>
-              <img src={HTML} className={IMGSTACK}/>
-              <img src={CSS} className={IMGSTACK}/>
-              <img src={JavaScript} className={IMGSTACK}/>
-              <img src={Reactt} className={IMGSTACK}/>
-              <img src={Node} className={IMGSTACK}/>
-              <img src={PostgreSQL} className={IMGSTACK}/>
+            <article className={stackArticle}>
+              <img src={HTML} className={IMGSTACK} alt="HTML"/>
+              <p className={stackName}>HTML</p>
+            </article>
+            <article className={stackArticle}>
+              <img src={CSS} className={IMGSTACK} alt="CSS"/>
+              <p className={stackName}>CSS</p>
+            </article>
+            <article className={stackArticle}>
+              <img src={JavaScript} className={IMGSTACK} alt="JavaScript"/>
+              <p className={stackName}>JavaScript</p>
+            </article>
+            <article className={stackArticle}>
+              <img src={Reactt} className={IMGSTACK} alt="React"/>
+              <p className={stackName}>React</p>
+            </article>
+            <article className={stackArticle}>
+              <img src={Node} className={IMGSTACK} alt="Node"/>
+              <p className={stackName}>Node</p>
+            </article>
+            <article className={stackArticle}>
+              <img src={PostgreSQL} className={IMGSTACK} alt="PostgreSQL"/>
+              <p className={stackName}>PostgreSQL</p>
+            </article>
           </div>
           <p className={Description}>Te invito a que recorras mi portfolio...</p>
           <Link to='/about'><a className={button} href="/about">¿Quien soy?</a></Link>
