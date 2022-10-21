@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { BsLinkedin, BsGithub } from 'react-icons/bs'
 import { HiDocumentText } from 'react-icons/hi'
 import { SiGmail } from 'react-icons/si'
-import {container, navLink, navItems, navLinkText, Footer, iconsContainer, icon } from './layout.module.css'
+import {container, navLink, navItems, navLinkText, Footer, iconsContainer, icon, iconEmail } from './layout.module.css'
 
 const Layout = ({pageTitle, children}) => {
   return (
@@ -24,7 +24,7 @@ const Layout = ({pageTitle, children}) => {
     <div className={iconsContainer}>              
               <Link target='none' className={icon} to='https://www.linkedin.com/in/gaarfede/'><BsLinkedin size={"23px"}/></Link>
               <Link target='none' className={icon} to='https://github.com/Fedegaar'><BsGithub size={"23px"}/></Link>
-              <Link target='none' className={icon} to='mailto:fedegaar@gmail.com'><SiGmail size={"23px"}/></Link>
+              <Link target='none' className={iconEmail} to='mailto:fedegaar@gmail.com'><SiGmail size={"23px"}/></Link>
               <Link target='none' className={icon} to='https://drive.google.com/file/d/1PLsMtNsiyeYJ3xr7g-XawFuh0tg0mkAA/view?usp=sharing'><HiDocumentText size={"23px"}/></Link>            
             </div>
     </div>

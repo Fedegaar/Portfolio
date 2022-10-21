@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 3em;
 }
 
 .cardContainer{
@@ -67,5 +68,8 @@
     .Description{
       font-size: large;
       font-weight: 600;
+    }
+    .container{
+      padding-bottom: 3em;
     }
 }

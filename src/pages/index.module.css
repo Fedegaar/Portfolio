@@ -140,6 +140,7 @@ img{
   .container {
     display: flex;
     flex-direction: row;
+    padding-bottom: 4em;
   }
 
   .Info {
